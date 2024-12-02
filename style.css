@@ -1,0 +1,35 @@
+body {
+    
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200vh;
+    margin: 0;
+    background: url("ghost.jpg") no-repeat;
+    background-position: center;
+    background-color: black;
+    
+}
+
+.music-container {
+    text-align: center;
+    width: 80%;
+    max-width: 600px;
+    
+}
+
+#lyrics p {
+    font-size: 2.0rem;
+    margin: 0.7rem 0;
+    color: rgb(252, 247, 247);
+}
+
+#lyrics span {
+    transition: background-color 0.3s ease;
+}
+
+.grifada {
+    background-color: rgb(141, 6, 238);
+    border-radius: 8px;
+}
